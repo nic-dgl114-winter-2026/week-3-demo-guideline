@@ -22,7 +22,7 @@ A simple Android app demonstrating basic Jetpack Compose concepts including layo
 Replace the content of `MainActivity.kt` with:
 
 ```kotlin
-package com.example.studentprofile
+package com.example.studentprofileapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
