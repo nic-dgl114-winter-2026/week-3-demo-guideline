@@ -294,47 +294,6 @@ modifier = Modifier
 
 ---
 
-## Live Coding Tips for Class
-
-### Step-by-step Demonstration:
-
-1. **Start Simple**
-   ```kotlin
-   @Composable
-   fun Greeting() {
-       Text(text = "Hello DGL 114!")
-   }
-   ```
-
-2. **Add Styling**
-   ```kotlin
-   Text(
-       text = "Hello DGL 114!",
-       fontSize = 24.sp,
-       fontWeight = FontWeight.Bold
-   )
-   ```
-
-3. **Add Layout**
-   ```kotlin
-   Column(
-       modifier = Modifier.padding(16.dp)
-   ) {
-       Text(text = "Hello")
-       Text(text = "DGL 114!")
-   }
-   ```
-
-4. **Add Interactivity**
-   ```kotlin
-   var count by remember { mutableStateOf(0) }
-   Button(onClick = { count++ }) {
-       Text("Clicked $count times")
-   }
-   ```
-
----
-
 ## Extensions for Advanced Students
 
 ### Challenge 1: Add More State
@@ -381,7 +340,7 @@ import androidx.compose.runtime.*
 
 ---
 
-## Homework Assignment Ideas
+## Homework Practice Ideas
 
 1. **Personalize the App**
    - Change name and student ID to their own
